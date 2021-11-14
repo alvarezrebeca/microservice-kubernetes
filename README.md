@@ -25,16 +25,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
-```bash
-python3 -m pip install --user virtualenv
-# You should have Python 3.7 available in your host. 
-# Check the Python path using `which python3`
-# Use a command similar to this one:
-python3 -m virtualenv --python=<path-to-Python3.7> .devops
-source .devops/bin/activate
-```
-* Run `make install` to install the necessary dependencies
+1. Do a clone of this repository to your environment
+2. Create a virtual environment with Python 3.7 ~/.devops    -> python3 -m venv ~/.devops
+3. Activate the virtual environment                          -> source ~/.devops/bin/activate
+4. Install all necessary dependencies                        -> make install
 
 ### Running `app.py`
 
